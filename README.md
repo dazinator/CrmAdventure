@@ -10,7 +10,7 @@ To run the tests:
     2. Create a new User account in CRM, with a username: "testing".
     3. Add an app.config file to the project, with an app setting for the password for the "testing" user account, used to authenticate:
 ```xml
-    <?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <connectionStrings>
   </connectionStrings>
