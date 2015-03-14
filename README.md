@@ -8,7 +8,7 @@ To run the tests:
 
     1. Adjust Config.cs with appropriate CRM URL's.
     2. Create a new User account in CRM, with a username: "testing".
-    3. Add an app.config file to the project, with an app setting for the password for the "testing" user account, used to authenticate:
+    3. Add an app.config file to the project, with the password for the "testing" user account as an app setting:-
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
